@@ -1,0 +1,42 @@
+# MyGTMManager
+
+Disclaimer!!!
+- Using these scripts might result in changes made in certain containers and accounts. When executing a script, you will not be prompt with confirmations, alerts or alike. The script will simply execute. 
+So check your script twice or more, before runnning it. Preferably, test your script in a Google test acccount. Good luck Chuck, you are gonna need it ;)
+
+Introduction 
+- 
+
+Purpose
+- 
+
+Scripts:
+
+    - listContiners: List all containers in an account, with name, ID and path
+
+    - publishContainers: Publish all containers Default Workspace. If a container also have an other workspace, its contianerID will be printet in a list. 
+
+    - addVarTriggerTag: Add a new tag and a corresponding trigger. Must be done in the same script, as a unique 
+    triggerID is used automatically be GTM.
+
+    - delete: Deletes a tag, trigger or variable in a container if it matches the input paramater
+
+    - addVariable: Add a new variable to the container
+
+    - addBuildInVariable: Enables a list of built in variables.
+
+Ressources
+- To use the script you need to have the right credentials for your Google API. Visit Goolge Cloud Platform (console.developers.google) to set up an API.
+NOTE: If the credentials doesnt work, or your dont have the needed OAuth scopes OAuth. Please visit Google CLoud Platform, and find the App copnnected to the API, and revoke the conection. Then reconnect the app.
+Else, delete the "my_client_secret" file in the script folder, then upload a new client secret file, with the name "my_client_secret.json" (can be downlaoded from the API page)
+
+
+
+Notes: As tags requires a generic GA ID variable, this must be provide in th container before using the script to install a tag with a GA ID.
+If a GA ID is not provided or any other variable, that is used by the trigger. The eroor respones will be a 404 error (not found og no permission)
+
+Permissions: Nogle container er ikke oprette med "super" brugeren (portal mailen). Disse containere vil ikke kune blive opdateret eller ændret af jacobc@its.aau.dk brugeren.
+Derfor skal der oprettes admin rettigheder til alle containere til "super brugeren"
+
+Scriptet skal laves om således at det er koblet op på AAU portal team istedet for jacobc@its.aau.dk
+

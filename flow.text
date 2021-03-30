@@ -1,0 +1,38 @@
+
+
+--------- Starten af hvert script ---------
+
+Log ind på en Google Konto med API 
+
+Log ind på en GTM Konto
+
+List alle containere på kontoen
+
+List alle workspaces i hver containere
+
+Hvis en container har et workspace som ikke hedder "Default Workspace", tilføj denne container til en liste
+
+Print alle container i listen
+
+
+------- Tilføj accordion tracking på alle sites -------
+
+
+Hvis containeren allerede har en accordion trigger - slet triggeren
+
+Opsæt en ny accordion trigger
+
+Hvis containeren allerede har et tag med accordion tracking - slet tagget
+
+Opsæt et tag med accordion tracking
+
+
+
+------- slutningen af hver script ---------
+
+Lav workspacet om til en version
+
+Publiser version
+
+
+
